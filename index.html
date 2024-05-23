@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számkitalálos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-form">
+            <h3>Szint</h3>
+            <select id="level">
+                <option value="0">Válaszd ki a szintet!</option>
+                <option value="1">1-es szint</option>
+                <option value="2">2-es szint</option>
+                <option value="3">3-as szint</option>
+            </select>
+        </div>
+        <div id="guess-form" class="input-form display-none">
+            <div id="level-desc"></div>
+            <h3>Írd be a tippedet</h3>
+            <input type="number" id="guess">
+            <button id="play">Tippelés!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

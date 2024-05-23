@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.input-form {
+    max-width: 500px;
+    background-color: #a5f5b9;
+    border: 1px solid #8ccb9c;
+    padding: 15px;
+    margin: auto; /*azért, mert ez már a container padding: 15px-e miatt már el van távolodva*/
+    margin-bottom: 15px;
+}
+
+input, button, select {
+    display: block;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+.display-none {
+    display: none;
+}
